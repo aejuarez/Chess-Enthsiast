@@ -6,7 +6,7 @@
 }
   
 html, body {
-	background: url('Images/chessBoard.png');
+	background: url('../images/chessBoard.png');
 	height: 100%
 }
 
@@ -23,7 +23,7 @@ strong {
 
 #wrapper {
 	border-top: 24px solid #000;
-	background: url('Images/little_pluses.png');
+	background: url('../images/little_pluses.png');
 	zoom: 1;
 	filter: alpha(opacity=98);
 	opacity: 0.98;
@@ -156,7 +156,7 @@ td {
 }
 
 #footer {
-	background: url('Images/blackmamba.png');
+	background: url('../images/blackmamba.png');
   	height: 125px;
 	min-width: 1000px;
 	margin-top: -125px;
@@ -193,22 +193,22 @@ body:before {
 
 @font-face {
   	font-family: Quicksand;
-	src: url('Fonts/Quicksand_Bold-webfont.eot');
-    src: url('Fonts/Quicksand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/Quicksand_Bold-webfont.woff') format('woff'),
-         url('Fonts/Quicksand_Bold-webfont.ttf') format('truetype'),
-         url('Fonts/Quicksand_Bold-webfont.svg#QuicksandBold') format('svg');
+	src: url('../fonts/Quicksand_Bold-webfont.eot');
+    src: url('../fonts/Quicksand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand_Bold-webfont.woff') format('woff'),
+         url('../fonts/Quicksand_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand_Bold-webfont.svg#QuicksandBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
   
 @font-face {
   	font-family: Chunkfive;
-	src: url('Fonts/chunkfive-webfont.eot'); /* IE9 Compat Modes */
-	src: url('Fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('Fonts/chunkfive-webfont.woff') format('woff'), /* Modern Browsers */
-	     url('Fonts/chunkfive-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-		 url('Fonts/chunkfive-webfont.svg#QuicksandBold') format('svg');
+	src: url('../fonts/chunkfive-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/chunkfive-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/chunkfive-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/chunkfive-webfont.svg#QuicksandBold') format('svg');
 	font-weight: normal;
     font-style: normal;
 	}
@@ -216,11 +216,11 @@ body:before {
 
 @font-face {
   	font-family: Sheep Sans;
-	src: url('Fonts/sheep_sans-webfont.eot');
-    src: url('Fonts/sheep_sans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/sheep_sans-webfont.woff') format('woff'),
-         url('Fonts/sheep_sans-webfont.ttf') format('truetype'),
-         url('Fonts/sheep_sans-webfont.svg#QuicksandBold') format('svg');
+	src: url('../fonts/sheep_sans-webfont.eot');
+    src: url('../fonts/sheep_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sheep_sans-webfont.woff') format('woff'),
+         url('../fonts/sheep_sans-webfont.ttf') format('truetype'),
+         url('../fonts/sheep_sans-webfont.svg#QuicksandBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
